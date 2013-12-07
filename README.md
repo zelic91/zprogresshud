@@ -1,6 +1,10 @@
 ZProgressHUD
 ============
+<<<<<<< HEAD
 ![alt tag](https://github.com/zelic91/zprogresshud/blob/master/screenshot.png)
+=======
+![alt tag]()
+>>>>>>> dbc9855fe4c18ee90408c1061d2b57cf0f22f2f5
 
 ZProgressHUD is a progress dialog with HUD style for Android.
 
