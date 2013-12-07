@@ -2,7 +2,9 @@ ZProgressHUD
 ============
 ![alt tag](https://raw.github.com/zelic91/zprogresshud/master/gear.png)
 
+
 ![alt tag](https://raw.github.com/zelic91/zprogresshud/master/fade.png)
+
 
 ![alt tag](https://raw.github.com/zelic91/zprogresshud/master/simple_round.png)
 
