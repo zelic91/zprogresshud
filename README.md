@@ -1,6 +1,11 @@
 ZProgressHUD
 ============
-![alt tag](https://raw.github.com/zelic91/zprogresshud/master/screenshot.png)
+![alt tag](https://raw.github.com/zelic91/zprogresshud/master/gear.png)
+
+![alt tag](https://raw.github.com/zelic91/zprogresshud/master/fade.png)
+
+![alt tag](https://raw.github.com/zelic91/zprogresshud/master/simple_round.png)
+
 
 ZProgressHUD is a progress dialog with HUD style for Android.
 
@@ -16,6 +21,12 @@ ZProgressHUD progressHUD = ZProgressHUD.getInstance(context);
 
 Please notice that you must pass a context to the getInstance() method.
 
+### Set HUD message
+You can set your custom message (instead of "Loading ..." by default) by calling `setMessage()` method. Be aware of the length of the message, it will be cut if too long.
+
+### Set spinner type
+At the moment, there are 3 types of spinner: GEAR_SPINNER, SIMPLE_ROUND_SPINNER and FADED_ROUND_SPINNER. You can set it by calling `setSpinnerType()`.
+
 ### Show the HUD
 Just call `show()` as a normal dialog.
 
@@ -27,9 +38,6 @@ progressHUD.dismissWithFailure("Spoil");
 `
 
 Default message is set to __"Success"__ and __"Failure"__ for success and failure respectively.
-
-### Reset the HUD
-Please call `reset()` to refresh the HUD in order to reuse the same instance.
 
 ===================
 Please feel free to drop me an email at [thuongnh.uit@gmail.com](thuongnh.uit@gmail.com) to improve the HUD.
