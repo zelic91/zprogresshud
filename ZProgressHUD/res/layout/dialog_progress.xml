@@ -20,10 +20,11 @@
             android:gravity="center"
             android:orientation="vertical" >
 
-            <ProgressBar
-                android:id="@+id/progress"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <ImageView
+                android:id="@+id/imageview_progress_spinner"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
                  />
 
             <ImageView
